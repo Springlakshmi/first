@@ -1,0 +1,133 @@
+body {
+    width:100%;
+    font:italic;
+        background-color: #f0f0f0; /* Light gray background */
+        background-image: 
+          linear-gradient(45deg, transparent 45%, rgba(255,255,255,0.8) 45%, rgba(255,255,255,0.8) 55%, transparent 55%),
+          linear-gradient(-45deg, transparent 45%, rgba(255,255,255,0.8) 45%, rgba(255,255,255,0.8) 55%, transparent 55%);
+        background-size: 50px 50px; /* Size of the cube pattern */
+      }
+
+*{
+    color: black;
+  }
+ .container {
+  width: 100%;
+  height:100%;
+  text-align: center; 
+ 
+
+}
+
+.left, .right {
+
+
+
+  font-size: 20px;
+  margin-top: 25px;
+ 
+  margin-left: 90px;
+  
+  
+}
+.right{
+  float: right;
+  margin-right:230px;
+}
+
+.left {
+  float: left;
+  font-size: 20px;
+  margin-top: 25px;
+  margin-left: 70px; /* Adjust as needed */
+}
+
+.center {
+  font-size: 45px;
+  text-align: center;
+  display: inline-block;
+  margin-left: 03px; /* Adjust as needed */
+  margin-top: 5px;
+}
+
+
+ 
+  
+.item {
+    font-family: 'Open Sans';
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+
+   
+    
+}
+.item1 {
+    color: black;
+}
+
+.center1{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 28px;
+}
+.center2{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 28.5px;
+}
+.button-container {
+    text-align: center;
+    position: relative;
+    margin-top: 30px; /* Adjust as needed */
+  
+  }
+  .button {
+    background-color:goldenrod; /* Darkgoldenrod background color */
+    border: none; /* Remove default button border */
+    color: white; /* White text color */
+    text-align: center; /* Center text horizontally */
+    display: inline-block; /* Display as inline block */
+    padding: 10px 20px; /* Padding inside the button */
+    margin: 10px; /* Margin around the button */
+    text-decoration: none; /* Remove default underline */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Add cursor on hover */
+    border-radius: 10px; /* Add more rounded corners */
+    box-shadow: 0 5px 15px goldenrod;/* Add a more pronounced box shadow for 3D effect */
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  .arrow {
+    margin-top: 31px;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid black;
+  }
+  .vertical-line {
+    margin-top: 31px;
+    position: absolute;
+    top: calc(100% - 5px); /* Adjust the distance of the line from the arrow */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 2px; /* Adjust the width of the line */
+    height: 50px; /* Adjust the height of the line */
+    background-color:black;
+  }
+  
+ 
+
+.form-body{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.abc {
+    font:italic;/* Adjust the value as needed */
+  }
+  
